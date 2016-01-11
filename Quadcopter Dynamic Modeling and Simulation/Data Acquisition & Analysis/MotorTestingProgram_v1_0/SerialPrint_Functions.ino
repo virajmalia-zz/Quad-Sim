@@ -18,6 +18,7 @@ void printInstructions(){
   Serial.println("Alternatively for: ");
   Serial.println("STEP RESPONSE MODE: Enter \"-1\" (See Instructions)");
   Serial.println("ESC THROTTLE CALIBRATION MODE: Enter \"-2\"");
+  Serial.println("ESC PROGRAMMING MODE: Enter \"-3\"");
   Serial.print("Seconds"); Serial.print("\t");
   Serial.print("Throttle"); Serial.print("\t");
   Serial.println("RPM");
