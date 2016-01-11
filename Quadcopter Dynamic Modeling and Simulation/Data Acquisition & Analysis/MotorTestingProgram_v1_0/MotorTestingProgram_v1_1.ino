@@ -120,6 +120,9 @@ void getSerialInput(){
   else if (incomingByte == -2) {
     calibrationMode();
   }
+  else if (incomingByte == -3) {
+    programMode();
+  }
 }
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // This function takes the incoming serial value and sets the motor to a corresponding value. If decimal percent throttle values 
